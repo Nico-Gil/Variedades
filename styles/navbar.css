@@ -1,0 +1,34 @@
+/* Estilos del contenedor div */
+.navbar-container {
+    text-align: center; /* Centra el contenido horizontalmente */
+    background-color: #3498db; /* Fondo azul */
+    padding: 10px; /* Agrega un relleno para separar los elementos del fondo */
+    border-radius: 5px; /* Borde redondeado */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Sombra */
+    position: fixed; /* Mantiene la barra de navegación fija en la parte superior */
+    top: 0; /* Se fija en la parte superior de la ventana */
+    width: 100%; /* Ancho del 100% de la ventana */
+    z-index: 2; /* Capa superior */
+}
+
+/* Estilos de los elementos de la lista (li) */
+ul.navbar-main li {
+    display: inline; /* Hace que los elementos sean horizontales en línea */
+    margin: 0 15px; /* Añade espaciado entre los elementos si es necesario */
+}
+
+/* Estilos adicionales para los elementos de la lista */
+ul.navbar-main li a {
+    text-decoration: none; /* Elimina el subrayado predeterminado de los enlaces */
+    color: #fff; /* Texto en blanco */
+    font-weight: bold; /* Texto en negrita */
+    font-size: 18px; /* Tamaño de fuente base */
+    transition: all 0.3s; /* Agrega una transición suave para todos los estilos al pasar el mouse */
+}
+
+/* Estilos al pasar el mouse sobre los enlaces */
+ul.navbar-main li a:hover {
+    color: #ecf0f1; /* Cambia el color al pasar el mouse */
+    font-size: 20px; /* Aumenta el tamaño de la fuente al pasar el mouse */
+    transform: translateY(-2px); /* Hace que el elemento parezca "sobresalir" ligeramente */
+}
